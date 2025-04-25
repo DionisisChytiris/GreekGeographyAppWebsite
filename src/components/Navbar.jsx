@@ -43,7 +43,7 @@ function Navbar({ isInSection }) {
             {/* Hamburger Button */}
             <button
               onClick={toggleMobileMenu}
-              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              className="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
             >
               <span className="sr-only">Open main menu</span>
               {isMobileMenuOpen ? (
@@ -103,7 +103,7 @@ function Navbar({ isInSection }) {
                 scrollUp
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 -translate-y-5"
-              } flex-shrink-0 text-white text-xl flex items-center justify-center px-5 sm:block lg:block hidden`}
+              } flex-shrink-0 text-white text-xl flex items-center justify-center px-5 md:block lg:block hidden`}
             >
               Γεωγραφία της Ελλάδας
             </div>
@@ -116,7 +116,7 @@ function Navbar({ isInSection }) {
                 href="#section1"
                 className={`${
                   !isInSection ? "text-white" : "text-blue-500"
-                } text-shadow-md hover:bg-blue-200 px-3 py-2 rounded-md text-md font-medium`}
+                } text-shadow-md hover:bg-blue-500 px-3 py-2 rounded-md text-md font-medium`}
               >
                 Aρχική
               </a>
@@ -124,7 +124,7 @@ function Navbar({ isInSection }) {
                 href="#section2"
                 className={`${
                   !isInSection ? "text-white" : "text-blue-500"
-                } text-shadow-md hover:bg-blue-200 px-2 py-2 rounded-md text-md font-medium`}
+                } text-shadow-md hover:bg-blue-500 px-2 py-2 rounded-md text-md font-medium`}
               >
                 About
               </a>
@@ -132,7 +132,7 @@ function Navbar({ isInSection }) {
                 href="#section3"
                 className={`${
                   !isInSection ? "text-white" : "text-blue-500"
-                } text-shadow-md hover:bg-blue-200 px-3 py-2 rounded-md text-md font-medium`}
+                } text-shadow-md hover:bg-blue-500 px-3 py-2 rounded-md text-md font-medium`}
               >
                 Contact
               </a>
@@ -144,7 +144,7 @@ function Navbar({ isInSection }) {
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="sm:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1">
+          <div className="px-2 pt-2 pb-3 space-y-1 bg-amber-500 rounded-2xl">
             <a
               href="#home"
               className="text-white hover:bg-blue-700 block px-3 py-2 rounded-md text-base font-medium"

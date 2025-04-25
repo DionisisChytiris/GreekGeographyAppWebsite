@@ -18,16 +18,16 @@ export default function Header() {
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center scroll-mt-20 mt-5"
         id="section1"
       >
-        <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4 sm:mb-8">Κατέκτησε τη</h1>
-        <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 sm:mb-10">
+        <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold text-white mb-2 lg:mb-4">Εξερεύνησε τη</h1>
+        {/* <h1 className="text-4xl sm:text-4xl font-bold text-white mb-4 sm:mb-4">Κατέκτησε τη</h1> */}
+        <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl font-bold text-gray-900 mb-4 lg:mb-6">
           Γεωγραφία της Ελλάδας
         </h1>
-        <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4 sm:mb-8">
+        <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold text-white mb-4 sm:mb-8 lg:mb-20">
           με Διασκεδαστικά Κουίζ
         </h1>
-        <p className="text-md text-gray-200 pb-20 pt-10 max-w-2xl mx-auto">
-          Τέσταρε τις γνώσεις σου πάνω στα νησιά, βουνά, πόλεις, ποτάμια και
-          πολλά άλλα. Ιδανικό για μαθητές, ταξιδιώτες και λάτρεις της Ελλάδας
+        <p className="text-md lg:text-2xl text-gray-200 pb-20 pt-10 max-w-2xl mx-auto">
+            Μάθε για τα όμορφα νησιά, τις ιστορικές πόλεις, τα μεγαλοπρεπή βουνά και τα εντυπωσιακά τοπία. Ιδανικό για μαθητές, ταξιδιώτες και λάτρεις της Ελλάδας
           κάθε ηλικίας!
         </p>
         {/* <div className="flex justify-center gap-4">
@@ -39,7 +39,7 @@ export default function Header() {
           </button>
         </div> */}
 
-        <div className="block sm:hidden">Κατέβασε την εφαρμογή τώρα!</div>
+        <div className="block sm:hidden text-[20px] text-gray-700 font-medium">Κατέβασε την εφαρμογή τώρα!</div>
         <div className="flex flex-row justify-center gap-4 mb-8 mt-10">
         {/* <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8 mt-10"> */}
           <a

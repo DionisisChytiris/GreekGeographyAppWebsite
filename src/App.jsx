@@ -7,6 +7,9 @@ import {
   Star,
   Download,
   Cuboid as Android,
+  Search,
+  Book,
+  TestTube,
 } from "lucide-react";
 import MockPhones from "./components/mockPhones";
 import Navbar from "./components/Navbar";
@@ -82,17 +85,17 @@ const App = () => {
                   <div className="space-y-6">
                     <Feature
                       icon={<Star className="w-6 h-6 text-yellow-500" />}
-                      title="Multiple Quiz Categories"
+                      title="Πολλαπλές Κατηγορίες"
                       description="From ancient cities to modern regions, test your knowledge across various topics."
                     />
                     <Feature
-                      icon={<Download className="w-6 h-6 text-green-500" />}
-                      title="Offline Access"
+                      icon={<Book className="w-6 h-6 text-green-500" />}
+                      title="Μάθηση και πρόκληση"
                       description="Learn anywhere, anytime - no internet connection required."
                     />
                     <Feature
-                      icon={<Smartphone className="w-6 h-6 text-purple-500" />}
-                      title="User-Friendly Interface"
+                      icon={<Brain className="w-6 h-6 text-purple-500" />}
+                      title="Δοκίμασε τις ικανότητές σου "
                       description="Intuitive design makes learning geography fun and engaging."
                     />
                   </div>
