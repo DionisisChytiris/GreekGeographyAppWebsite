@@ -53,23 +53,28 @@ const App = () => {
           <div className="py-20 bg-white scroll-mt-20 mt-20" id="section2">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
-                Why Choose Our App?
+                Γιατί να επιλέξετε την εφαρμογή μας;
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <FeatureCard
                   icon={<Map className="w-8 h-8 text-blue-600" />}
                   title="Interactive Maps"
-                  description="Explore detailed maps of Greece's regions, islands, and historical landmarks."
+                  description="Μάζεψε νομίσματα απαντώντας σωστά και ξεκλείδωσε νέες κατηγορίες."
                 />
                 <FeatureCard
                   icon={<Brain className="w-8 h-8 text-blue-600" />}
                   title="Learn & Remember"
-                  description="Engaging quizzes designed to help you retain geographical knowledge effectively."
+                  description="Αγόρασε βοήθειες και ζωές για να συνεχίσεις όταν δυσκολεύεσαι."
                 />
                 <FeatureCard
                   icon={<Trophy className="w-8 h-8 text-blue-600" />}
                   title="Track Progress"
-                  description="Earn achievements and track your learning journey through statistics."
+                  description="Αντιμετώπισε αντιπάλους και δοκίμασε τις γνώσεις σου σε πραγματικό ανταγωνισμό για περισσότερα κέρδη."
+                />
+                <FeatureCard
+                  icon={<Trophy className="w-8 h-8 text-blue-600" />}
+                  title="Track Progress"
+                  description="Επικοινώνησε εύκολα με τον δημιουργό της εφαρμογής και μοιράσου προτάσεις ή προβλήματα."
                 />
               </div>
             </div>
@@ -79,8 +84,8 @@ const App = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="flex flex-col md:flex-row items-center justify-between gap-12">
                 <div className="flex-1">
-                  <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                    Your Journey Through Greek Geography
+                  <h2 className="text-4xl font-bold text-gray-900 mb-16">
+                    Το ταξίδι σου στην ελληνική γεωγραφία
                   </h2>
                   <div className="space-y-6">
                     <Feature

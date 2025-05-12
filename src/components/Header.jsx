@@ -68,9 +68,10 @@ export default function Header() {
             <div>Android</div>
           </a>
         </div>
-        <button className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold border-2 border-blue-600 hover:bg-blue-50 transition">
+       <div className="mb-30"/>
+        {/* <button className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold border-2 border-blue-600 hover:bg-blue-50 transition">
           Learn More
-        </button>
+        </button> */}
         <div className="mt-12">
           <img
             src="/meteora.jpg"
