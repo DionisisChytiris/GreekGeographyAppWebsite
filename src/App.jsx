@@ -16,6 +16,7 @@ import Navbar from "./components/Navbar";
 import TopImage from "./components/TopImage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 const App = () => {
   const section2Ref = useRef(null);
@@ -115,6 +116,7 @@ const App = () => {
               </div>
             </div>
           </div>
+          <Contact/>
 
           {/* Footer */}
           <Footer />

@@ -115,26 +115,26 @@ function Navbar({ isInSection }) {
               <a
                 href="#section1"
                 className={`${
-                  !isInSection ? "text-white" : "text-blue-500"
-                } text-shadow-md hover:bg-blue-500  hover:text-white px-3 py-2 rounded-md text-md font-medium`}
+                  !isInSection ? "text-white" : "text-white"
+                } text-shadow-md bg-gray-500 hover:bg-blue-500  hover:text-white px-3 py-2 rounded-md text-md font-medium`}
               >
                 Aρχική
               </a>
               <a
                 href="#section2"
                 className={`${
-                  !isInSection ? "text-white" : "text-blue-500"
-                } text-shadow-md hover:bg-blue-500 hover:text-white px-2 py-2 rounded-md text-md font-medium`}
+                  !isInSection ? "text-white " : "text-white"
+                } text-shadow-md bg-gray-500 hover:bg-blue-500 hover:text-white px-2 py-2 rounded-md text-md font-medium`}
               >
-                About
+                Σχετικά
               </a>
               <a
                 href="#section3"
                 className={`${
-                  !isInSection ? "text-white " : "text-blue-500 "
-                } text-shadow-md hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-md font-medium`}
+                  !isInSection ? "text-white " : "text-white "
+                } text-shadow-md bg-gray-500 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-md font-medium`}
               >
-                Contact
+                Επικοινωνία
               </a>
             </div>
           </div>

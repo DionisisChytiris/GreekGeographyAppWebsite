@@ -19,7 +19,7 @@ import React from "react";
 
 const TopImage = () => {
   return (
-    <div className="absolute h-[80vh] w-full overflow-hidden top-0">
+    <div className="absolute h-[120vh] w-full overflow-hidden top-0">
       <img
         src="/meteora.jpg"
         alt="Top"
