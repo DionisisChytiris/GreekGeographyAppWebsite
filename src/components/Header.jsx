@@ -42,7 +42,7 @@ export default function Header() {
           </button>
         </div> */}
 
-        <div id='#download-buttons' className="block sm:hidden text-[20px] text-gray-700 font-medium">
+        <div id='download-buttons' className="block sm:hidden text-[20px] text-gray-700 font-medium">
           Κατέβασε την εφαρμογή τώρα!
         </div>
         <div className="flex flex-row justify-center gap-4 mb-8 mt-10">
