@@ -147,18 +147,21 @@ function Navbar({ isInSection }) {
           <div className="px-2 pt-2 pb-3 space-y-1 bg-amber-500 rounded-2xl">
             <a
               href="#section1"
+              onClick={toggleMobileMenu}
               className="text-white hover:bg-blue-700 block px-3 py-2 rounded-md text-base font-medium"
             >
               Home
             </a>
             <a
               href="#section2"
+              onClick={toggleMobileMenu}
               className="text-white hover:bg-blue-700 block px-3 py-2 rounded-md text-base font-medium"
             >
               About
             </a>
             <a
               href="#section3"
+              onClick={toggleMobileMenu}
               className="text-white hover:bg-blue-700 block px-3 py-2 rounded-md text-base font-medium"
             >
               Contact
