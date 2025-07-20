@@ -146,19 +146,19 @@ function Navbar({ isInSection }) {
         <div className="sm:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 bg-amber-500 rounded-2xl">
             <a
-              href="#home"
+              href="#section1"
               className="text-white hover:bg-blue-700 block px-3 py-2 rounded-md text-base font-medium"
             >
               Home
             </a>
             <a
-              href="#about"
+              href="#section2"
               className="text-white hover:bg-blue-700 block px-3 py-2 rounded-md text-base font-medium"
             >
               About
             </a>
             <a
-              href="#contact"
+              href="#section3"
               className="text-white hover:bg-blue-700 block px-3 py-2 rounded-md text-base font-medium"
             >
               Contact
