@@ -11,9 +11,11 @@ export default function Footer() {
               <p className="text-gray-400 mb-8">
                 Download now and begin exploring Greek geography today!
               </p>
-              <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
-                Get Started
-              </button>
+              <a href="#download-buttons">
+                <button  className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition">
+                  Get Started
+                </button>
+              </a>
             </div>
           </div>
         </footer>
